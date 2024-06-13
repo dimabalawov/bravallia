@@ -1,0 +1,528 @@
+@media (max-width:2200px){
+    .thumbnail{
+        width: 800px !important;
+        height: 1000px !important
+    }
+}
+
+@media (max-width:1970px){
+    .thumbnail{
+        width: 600px !important;
+        height: 900px !important
+    }
+}
+
+@media (max-width:1650px){
+    #main-text p,#main-text h1{
+        font-size: 3em !important;
+    }
+
+    img #logo{
+        width: 5em !important;
+    }
+
+    #phone-number,#header-city{
+        font-size: 2em !important;
+    }
+    .dropdown button{
+        width: 5em !important;
+    }
+
+    header{
+        padding-inline: 5em !important;
+    }
+
+}
+
+@media (max-width:1500px){
+    .thumbnail{
+        width: 500px !important;
+        height: 600px !important;
+    }
+} 
+
+@media (max-width:1400px){
+    #cutie{
+        height: 1000px !important;
+    }
+
+    #facebook-src p{
+        font-size: 3em !important;
+    }
+}
+
+@media (max-width:1300px){
+    #facebook-src p{
+        font-size: 2em !important;
+    }
+
+    .thumbnail{
+        width: 400px !important;
+        height: 500px !important;
+    }
+}
+
+@media (max-width : 1200px){
+
+    #phone-number,#header-city{
+        font-size: 1.6em !important;
+    }
+    .dropdown button{
+        width: 3.5em !important;
+        height: 1.8em !important;
+    }
+
+    header{
+        padding-inline: 4em !important;
+    }
+
+    #cutie p {
+        font-size: 6em !important;
+    }
+}
+
+
+@media (max-width:1100px){
+    #cutie{
+        height: 900px !important;
+    }
+}
+
+@media (max-width:1000px){
+    header{
+        padding-inline: 3em !important ;
+    }
+    #facebook-src p{
+        font-size: 1.5em !important;
+    }
+    img#logo{
+        display: none !important;
+    }
+
+    #facebook,#whatsapp,#facebook-img, #whatsapp-img{
+        width: 2.5em !important;
+        height: 2.5em !important;
+    }
+
+    #cutie{
+        height: 800px !important;
+    }
+
+    #cutie p {
+        font-size: 5em !important;
+    }
+
+    .thumbnail{
+        width: 300px !important;
+        height: 400px !important;
+    }
+
+    .dropdown button{
+        width: 3em !important;
+        height: 1.5em !important;
+        font-size: 2em!important;
+    }
+
+    header{
+        padding-inline: 4em !important;
+    }
+
+}
+
+@media (max-width:850px){
+    #cutie{
+        height: 700px !important;
+    }
+
+    img#logo{
+        height: 3em;
+    }
+
+    #phone-number,#header-city{
+        font-size: 1.6em !important;
+    }
+    .dropdown button{
+        width: 2.5em !important;
+        font-size: 1.7em !important;
+    }
+    header{
+        padding-inline: 3em !important; 
+    }
+}
+
+
+@media (max-width:800px){
+   
+    #cutie{
+        height: 600px !important;
+    }
+
+    #cutie p {
+        font-size: 4em !important;
+    }
+
+    .thumbnail{
+        width: 250px !important;
+        height: 350px !important;
+    }
+    #facebook-src
+    {
+        display: block !important;
+    }
+    #facebook-text-and-logo
+    {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;   
+        margin: 0 auto !important;    
+        padding: 0 !important;
+        margin-top: 1em !important;
+    }
+    #facebook-text-and-logo p
+    {
+        justify-content: center !important;
+        align-items: center !important;   
+        margin: 0 auto !important;    
+        padding: 0 !important;
+    }
+}
+
+@media (max-width:700px){
+
+    #phone-number,#header-city{
+        font-size: 1.5em !important;
+    }
+    .dropdown button{
+        width: 3.3em !important;
+        font-size: 1.3em !important;
+    }
+    header{
+        padding-inline: 3em !important; 
+    }
+    .thumbnail{
+        width: 200px !important;
+        height: 300px !important;
+    }
+  
+}
+@media (max-width:600px){
+    #phone-number,#header-city{
+        font-size: 1.4em !important;
+    }
+    .dropdown button{
+        width: 3em !important;
+        font-size: 1.5em !important;
+    }
+    .dropdown-toggle::after{
+        display: none !important;
+    }
+}
+
+@media (max-width:500px){
+    .thumbnail{
+        width: 150px !important;
+        height: 250px !important;
+    }
+    body{
+        font-size: 70% !important;
+    }
+    header{
+        flex-direction: column ;
+        font-size: 14px !important;
+        height: auto  !important;
+    }
+    #networks
+    {
+       margin-bottom: 1em;
+    }
+    
+#city-lang
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70% !important
+}
+.plus img
+{
+    width: 30px !important;
+}
+#facebook-text-and-logo p
+{
+    justify-content: center !important;
+    align-items: center !important;   
+    margin: 0 auto !important;    
+    padding: 0 !important;
+    font-size: 20px !important;
+}
+}
+
+
+
+
+
+
+
+:root{
+    --add-color: rgb(252, 242, 242);
+    --main-color:#FAC0BC;
+    --yellow-color:rgb(255, 251, 251);
+    --button-color:#BE1E2D;
+}
+
+
+body
+{
+    font-weight:bold;
+    font-style: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin:0;
+    padding-bottom: 5em;
+    background-color: var(--main-color)!important; 
+}
+
+#header-logo{
+    width:auto;
+    align-self: flex-start;
+}
+#logo
+{
+    height: 7em;
+    margin-top: .2em;
+}
+
+
+header{
+    background-color: var(--add-color);
+    padding-block: .5em;
+    position: sticky;
+    top:0;
+    padding-inline: 10em;
+    height: 5em;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+}
+
+header a{
+    color:black;
+    text-decoration: none;
+}
+
+#networks{
+    align-self: center;
+    display: flex;
+    gap:1em;
+    width:auto;
+    justify-content: space-between;
+}
+
+#header-city,#phone-number{
+    font-size: 2.5em;
+}
+
+#facebook-img, #whatsapp-img {
+    height: 4em;
+    width: 4em;
+    transition: transform 0.3s ease; 
+}
+
+#facebook:hover #facebook-img,#whatsapp:hover #whatsapp-img  {
+    transform: scale(1.2); 
+}
+
+#phone-number{
+    align-self: center;
+}
+.dropdown-menu
+{
+      width: auto !important;
+    --bs-dropdown-min-width: 0 !important;
+    --bs-dropdown-link-active-color: black !important;
+    --bs-dropdown-link-active-bg:var(--button-color) !important;
+}
+
+.dropdown button{
+    background-color: var(--button-color) !important;
+    border-color: black !important;
+    width: 8em;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-item{
+    font-size: 1.3em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div{
+    justify-self:flex-end
+}
+main img{
+    width: 100%;
+}
+#cutie
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 4em;
+    width: 100%;
+    height: 1200px;
+    background-image: url(images/main2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    box-shadow: 0px -44px 37px -25px rgba(255,255,255,0.75) inset;
+    -webkit-box-shadow: 0px -44px 37px -25px rgba(255,255,255,0.75) inset;
+    -moz-box-shadow: 0px -44px 37px -25px rgba(255,255,255,0.75) inset;
+}
+
+#cutie p{
+    text-align: center;
+    color:white;
+    font-size: 7em;
+    font-weight: bolder;
+    line-height: 1.1;
+    text-shadow: 1px 5px 0px rgba(0,0,0,0.67);
+}
+
+
+#city-lang
+{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#main-text{
+    margin-top: 2em;
+    width: 86%;
+    font-weight: bold;
+    margin: 2 auto;
+}
+
+#main-text p{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#main-text h1{
+    margin-top: 4em;
+    margin-bottom: 1em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#guarantees{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one-guarantee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-block: 1em;
+    width: 80%;
+    padding: .5em;
+    line-height: 1.2em;
+    font-size: 2.7em;
+    width: 90%;
+}
+
+
+.plus{
+    width: 40px;
+    margin-right: .5em;
+}
+
+.plus img{
+    width: 40px;
+}
+
+
+.thumbnail {
+    height: 500px;
+    width: 500px;
+    border-radius: .5em;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .7);
+    transition: transform 0.4s ease;
+  }
+  .thumbnail:hover {
+    transform: scale(1.07);
+}
+  #gallery-container {
+    margin-block: 3vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 2em;
+}
+
+
+#facebook-src {
+    background-color: var(--add-color);
+    box-shadow: 10px 15px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    padding-inline: 3em;
+    padding-block: 1em;
+    margin: 5em auto;
+    display: flex;
+    width: 100%; 
+    max-width: 80%; 
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+#facebook-src img{
+    border-radius: 50%;
+    margin-right: 2em;
+}
+
+#cat-card img{
+    border: .3em solid var(--button-color);
+}
+
+#facebook-src p{
+    display: block;
+    width: 10em;
+    font-size: 2.5em;
+    margin-left: 1.5em;
+}
+
+#facebook-text-and-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+#facebook-src-logo {
+    align-self: center;
+    width: 5em;
+}
+
+
+#facebook-text-and-logo a{
+    text-decoration: none;
+}
+
+
+
+
+
+
